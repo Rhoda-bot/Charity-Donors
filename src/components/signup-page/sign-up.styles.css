@@ -1,0 +1,13 @@
+.sign-up {
+  width: 30vw;
+  display: flex;
+  flex-direction: column;
+}
+.title{
+  margin: 25px 0;
+  color: dodgerblue;
+}
+.footer{
+  display: flex;
+  justify-content: space-between;
+}
