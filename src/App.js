@@ -1,13 +1,15 @@
-import logo from './logo.svg';
+
 import './App.css';
 import { Route, Routes } from 'react-router-dom';
-import SignupPage from './components/signup-page/signup-component';
+import SignInPage from './components/signin-page/sign-in-component';
+import ResetPassword from './components/reset-password/reset-password.component';
 
 function App() {
   return (
     <div className="App">
      <Routes>
-       <Route exact path='/signup' element={<SignupPage/>}/>
+       <Route exact path='/signin' element={<SignInPage/>}/>
+       <Route  path='/reset-password' element={<ResetPassword/>}/>
      </Routes>
     </div>
   );
